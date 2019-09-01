@@ -1,0 +1,33 @@
+// Buttons 
+
+defaultbutton()
+	box-sizing border-box
+	color color-black
+	background-color transparent
+	text-align center
+	text-decoration none
+	transition all ease-out .6s
+	vertical-align middle
+	cursor pointer
+	outline none
+	zoom 1
+	
+
+.button-main
+	defaultbutton()
+	margin 4px 2px
+	padding 0
+	border none
+	border-radius 0px
+	display inline-block
+	font-size 18px
+	font-weight 700
+	color color-grey
+	
+	&:hover
+	&:focus
+		outline none
+	
+	&[disabled]
+	&:disabled
+		cursor not-allowed
