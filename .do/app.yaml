@@ -1,0 +1,5 @@
+name: plan-cards
+static-sites:
+  - name: plan-cards
+    output_dir: ./
+    index_document: index.html
