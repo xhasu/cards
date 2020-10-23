@@ -1,5 +1,6 @@
 name: plan-cards
 static-sites:
   - name: plan-cards
+    environment_slug: html
     output_dir: ./
     index_document: index.html
