@@ -4,13 +4,13 @@
   "description": "SBC project",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
   "keywords": [
     "scaffold",
     "front-end",
-    "project"
+    "stylus",
+    "project",
   ],
   "author": "xhasu",
   "license": "MIT",
